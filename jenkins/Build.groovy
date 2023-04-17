@@ -5,7 +5,7 @@ pipeline {
         stage('Clone repository') {
             steps {
                
-                    git branch: 'master', url: 'https://github.com/diwinw/cypress-jenkins'
+                    git branch: 'main', url: 'https://github.com/diwinw/cypress-jenkins'
                 
             }
         }
